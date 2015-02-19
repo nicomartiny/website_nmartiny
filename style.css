@@ -1,0 +1,19 @@
+body{	
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#222;
+	font-size:80%;
+	text-align:center;
+	xpadding:10px;
+}
+
+a{
+	color:#ddd;
+}
+
+#container{
+	text-align:left;
+	width:800px;	
+	margin:0px auto;
+}
+	
