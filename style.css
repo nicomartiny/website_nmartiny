@@ -12,8 +12,56 @@ a{
 }
 
 #container{
-	text-align:left;
-	width:800px;	
-	margin:0px auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
 }
+
+#backdrop{
+	position: absolute; 
+	width:100%; 
+	margin-middle;
+	z-index: 0;
+}
+
+
+#toptext{
+
+	position: relative;
+	color:white;
+	text-align:center;
+	font-size:24px;
+	z-index: 7;
+}
+#mainbody{
+	position: absolute;
+//	color:white;
 	
+	left:30%;
+	top: 300px;	
+	width:1267px;
+	height:1225px;
+
+	overflow: scroll;
+	z-index: 7;
+	
+}
+#side-buttons{
+	position: absolute;
+	color:white;
+
+	left:22%;
+	top:300px;
+	width:175px;
+ 
+	z-index: 3;
+
+	border-style:solid;
+	
+
+
+}
+
+
+

@@ -7,12 +7,38 @@
 </head>
 <body>
 	<div id="container">
-	<h1>Noise Field</h1>
-	<canvas datasrc="noisefield08.pjs" width="800" height="600"></canvas>
-	<p>Particle trails via Perlin noise. Move mouse to change particle motion. Click to randomize parameters.</p>
-	<p>Runs in Chrome, Firefox, Safari, Opera. To run in IE, use <a href="http://www.google.com/chromeframe">this plugin</a>.</p>
-	<p>Built with <a href="http://processingjs.org/">Processing.js</a> by <a href="http://airtightinteractive.com/">Felix Turner</a></p>
-    <p><a href="http://www.chromeexperiments.com/detail/noise-field/"><img src="black.png" alt="See my Experiment on ChromeExperiments.com" width="160" height="92" /></a></p>
-</div>
+		<canvas datasrc="noisefield08.pjs">
+	</div>
+	<div id="backdrop">
+        	<img src="BackdropT.png">
+	</div>
+	<div id="toptext">
+		<p> nmartiny</p>
+		<p>welcome to my website I hope you like it here</p>
+	</div>
+
+	<div id="side-buttons">
+		
+		<a href="google.com">button 1 goes to google so you should press it</a>
+		<a href="google.com">button 2 also goes to google so you should press it</a>
+	</div>
+
+
+
+
+	<div id="mainbody">
+		This is where news will go about upcoming events and random things.  I might make a blog or just post videos or something but whatever goes here will be relivent to stuff I do regularly. 
+
+	<?php
+	$f = fopen("shitwhat", "r");
+	echo fgets($f);
+	?>
+
+
+	</div>
+	
+
+	
+
 </body>
 </html>
