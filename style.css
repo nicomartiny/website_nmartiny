@@ -15,49 +15,114 @@ a{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	z-index: -1;
+	z-index: -2;
 }
 
 #backdrop{
 	position: absolute; 
-	width:100%; 
+
+
+	left:50%;
+	margin-right:50%;
+	transform:translate(-50%, 0);
+
+
+ 
 	margin-middle;
+	-moz-box-shadow: 5px -5px 19px -1px #000;
+	-webkit-box-shadow: 5px -5px 19px -1px #000;
+	box-shadow: 5px -5px 19px -1px #000;
+
+
 	z-index: 0;
 }
+
+#topbanner{
+	position: absolute;
+	top:135px;
+	left:50%;
+	margin-right:50%;
+	transform:translate(-50%, 0);
+	-moz-box-shadow: 5px -5px 19px -6px #000;
+	-webkit-box-shadow: 5px -5px 19px -6px #000;
+	box-shadow: 5px -5px 19px -6px #000;
+	z-index:1;
+}
+
+#sidemenu{
+	position: absolute;
+	top:350px;
+	left:20%;
+	margin-right:50%;
+	transform:translate(-50%, 0);
+	-moz-box-shadow: 15px -5px 19px -1px #000;
+	-webkit-box-shadow: 15px -5px 19px -1px #000;
+	box-shadow: 15px -5px 19px -1px #000;
+	z-index:1;
+}
+#topright{
+	position: absolute;
+	top:10px;
+	left:80%;
+	margin-right:50%;
+	transform:translate(-50%, 0);
+	-moz-box-shadow: 15px -5px 19px -1px #000;
+	-webkit-box-shadow: 15px -5px 19px -1px #000;
+	box-shadow: 15px -5px 19px -1px #000;
+	z-index:-1;
+}
+
 
 
 #toptext{
 
 	position: relative;
 	color:white;
+	
 	text-align:center;
 	font-size:24px;
 	z-index: 7;
 }
-#mainbody{
-	position: absolute;
-//	color:white;
-	
-	left:30%;
-	top: 300px;	
-	width:1267px;
-	height:1225px;
 
-	overflow: scroll;
-	z-index: 7;
-	
-}
-#side-buttons{
+#mainbody{
 	position: absolute;
 	color:white;
 
-	left:22%;
-	top:300px;
-	width:175px;
- 
-	z-index: 3;
+	left: 51%;
+	
+	transform:translate(-45.2%, 0);
+	width: 51.9%;
+	top: 300px;	
+	height:1225px;
 
-	border-style:solid;
+	overflow: scroll;
+	z-index: 7;	
+}
+
+#topbuttons{
+	position: absolute;
+	text-align: center;
+	left: 30%;
+	word-spacing: 130px;
+	font-size: 230%;
+	color: ff0000; 
+	top: 150px;
+	font-weight:bold;
+	z-index: 4;
+}
+
+
+#sidebuttons{
+	position: absolute;
+	color:white;
+
+	left:14%;
+	top:380px;
+	width:300px;
+ 	line-height: 200%;
+	z-index: 3;
+	font-weight:bold;
+
 	
 
 
