@@ -78,9 +78,10 @@ a{
 
 	position: relative;
 	color:white;
-	
+ 	line-height: 75%;
+	top: 15px;
 	text-align:center;
-	font-size:24px;
+	font-size:25px;
 	z-index: 7;
 }
 
@@ -88,12 +89,11 @@ a{
 	position: absolute;
 	color:white;
 
-	left: 51%;
-	
+	left: 51%;	
 	transform:translate(-45.2%, 0);
 	width: 51.9%;
-	top: 300px;	
-	height:1225px;
+	top: 250px;	
+	height:1275px;
 
 	overflow: scroll;
 	z-index: 7;	
@@ -127,6 +127,8 @@ a{
 
 
 }
-
+#about{
+	left:20%;
+}
 
 
