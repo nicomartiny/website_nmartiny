@@ -20,7 +20,7 @@ a{
 
 #backdrop{
 	position: absolute; 
-
+	max-width:100%;
 
 	left:50%;
 	margin-right:50%;
@@ -39,6 +39,7 @@ a{
 
 #topbanner{
 	position: absolute;
+	max-width:100%;
 	top:135px;
 	left:50%;
 	margin-right:50%;
@@ -51,6 +52,7 @@ a{
 
 #sidemenu{
 	position: absolute;
+	max-width:100%;
 	top:350px;
 	left:20%;
 	margin-right:50%;
