@@ -16,12 +16,13 @@ int FIELDHEIGHT = screen.height;
 if (screen.width < 2000){
 	FIELDWIDTH = 2000;
 }
-if (screen.height < 2000){
-	FIELDHEIGHT = 2000;
+if (screen.height < 4000){
+	FIELDHEIGHT = 4000;
 }
 
 
-void setup() {
+void setup(){
+
 	size(FIELDWIDTH, FIELDHEIGHT);
 	colorMode(HSB, 100);
 	background(0);  
@@ -49,10 +50,12 @@ void mouseClicked() {
 
 void draw() {
 	iWait++;
+
+
 	if (iWait==20){//wait for 15th time around
 		noStroke();	
 		fill(0,fadeAmount);
-//	rect(0,0,width,height);//fade background
+//		rect(0,0,width,height);//fade background
 		rect(0, 0, FIELDWIDTH, FIELDHEIGHT)
 		translate((width- FIELDWIDTH)/2,(height- FIELDHEIGHT)/2);
 
@@ -67,8 +70,7 @@ void draw() {
 }
 
 class Particle {
-  float id,x,y,xp,yp,s,d,sColor,len,z,zp;
- 
+  float id,x,y,xp,yp,s,d,sColor,len,z,zp;   
   Particle(float _id) {
     id=_id;
     init();
